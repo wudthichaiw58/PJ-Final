@@ -1,0 +1,76 @@
+page-cam {
+    .img-alpha {
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        /* For IE8 and earlier */
+    }
+
+    .transparent-bg {
+        // background-color: #ffffff !important;
+    }
+
+    .bg-image {
+        background-image: url('../assets/imgs/nurse_bg.png');
+        z-index: -1;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-color: rbga(255, 255, 255, 0);
+    }
+    // ion-row {
+    //     margin: 0 auto;
+    //     overflow: visible;A
+    //     padding-left: 0;
+    //     padding-right: 0;
+    //     }
+    ion-footer {
+        // opacity: 0.548;
+        // filter: alpha(opacity=50);
+        background-image: url('../assets/imgs/nurse_bg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-color: rbga(255, 255, 255, 0.548); // background-color: rgba(255, 255, 255, 0);
+    }
+    ion-header {
+        ion-navbar {
+            div.toolbar-background {
+                // opacity: 0.548;
+                // filter: alpha(opacity=50);
+                background-image: url('../assets/imgs/nurse_bg_alpha.png');
+                background-repeat: repeat;
+                background-position: center;
+                background-size: cover;
+                background-color: rgba(255, 255, 255, 0.548);
+                border-color: rbga(255, 255, 255, 0); // background-color: rgba(255, 255, 255, 0.7);
+            }
+        }
+    } // bg img navbar
+    // ----------------------------------------------------
+    ion-header {
+        ion-toolbar {
+            div.toolbar-background {
+                // opacity: 0.548;
+                // filter: alpha(opacity=50);
+                background-image: url('../assets/imgs/nurse_bg_alpha.png');
+                background-repeat: repeat;
+                background-position: center;
+                background-size: cover;
+                background-color: rgba(255, 255, 255, 0.548);
+                border-color: rbga(255, 255, 255, 0); // background-color: rgba(255, 255, 255, 0.7);
+            }
+        }
+    }
+    ion-grid {
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding: 0 !important;
+    }
+    .footer-bg {
+      padding: 5px;
+      //background-color: transparent;
+      //background-image: none;
+    }
+}

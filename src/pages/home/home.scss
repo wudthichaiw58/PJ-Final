@@ -1,0 +1,70 @@
+page-home {
+  
+  @media screen and (max-width: 600px) {
+    .title-tab {
+      background-color: #000000;
+      background-image: linear-gradient(to right, #000000, #5e5e5e);
+      width: 100%;
+      height: 60px;
+      align-items: center;
+      .font-title {
+        color: #ffffff;
+        font-size: 1.6em;
+      }
+    }
+  
+    .circle {
+      background-image: linear-gradient(red,green);
+      padding: 1px;
+      width: 100px;
+      height: 100px;
+      border-style: solid;
+      border-color: transparent;
+      border-radius: 50%;
+      border-width: 1px;
+      animation: rot 1s linear infinite;
+      padding: 1px;
+    }
+  
+    .circle > div {
+      background: white;
+      height: 97px;
+      width: 97px;
+      border-style: solid;
+      border-color: transparent;
+      border-radius: 50%;
+      border-width: 1px;
+    }
+  
+    .circle p {
+      animation: none;
+    }
+  
+    p {
+      position: absolute;
+      z-index: 10;
+      top: 40px;
+      left: 55px;
+    }
+    @keyframes rot {
+      0% {
+        transform: rotate(0deg)
+      }
+      25% {
+        transform: rotate(90deg)
+      }
+      50% {
+        transform: rotate(180deg)
+      }
+      75% {
+        transform: rotate(270deg)
+      }
+      100% {
+        transform: rotate(360deg)
+      }
+    }
+  } 
+    
+  
+
+}
